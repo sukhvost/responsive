@@ -1,0 +1,65 @@
+/* Font connection */
+
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Specification */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #0001c5;
+    letter-spacing: 0.06em;
+}
+
+.jpk-font {
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    margin: 0 7%;
+    position: relative;
+}
+
+/* header */
+
+.header {
+    background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom/cover;
+    color: #fff;
+    height: 100vh;
+}
+.header .container {
+    height: 100vh;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #0000a0;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    transition: all 0.4s;
+    position: absolute;
+    top: 7%;
+}
+.logo:hover {
+    font-size: 35px;
+    border-radius: 50%;
+}
