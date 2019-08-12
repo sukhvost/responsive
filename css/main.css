@@ -19,6 +19,10 @@ body {
     letter-spacing: 0.06em;
 }
 
+div, p, span, a, input, button {
+    box-sizing: border-box;
+}
+
 .jpk-font {
     font-family: 'Jaapokkisubtract', sans-serif;
 }
@@ -27,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    margin: 0 auto;
     margin: 0 7%;
     position: relative;
 }
@@ -62,4 +65,92 @@ h1, h2, h3, h4, h5, h6 {
 .logo:hover {
     font-size: 35px;
     border-radius: 50%;
+}
+
+.brah {
+    background: #fff;
+    font-size: 18px;
+    color: #0000a0;
+    text-align: center;
+    width: 42px;
+    height: 175px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+/* .hamburger {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 7%;
+    cursor: pointer;
+}
+
+.hamburger__string {
+    position: relative;
+    transition: all 0.4s;
+}
+
+.hamburger__string div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+}
+
+.hamburger__string div::before {
+    display: block;
+    content: "";
+    width: 35px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    top: 10px;
+}
+.hamburger__string div::after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    top: 20px;
+} */
+
+.hamburger {
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 7%;
+    float: right;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background: #fff;
+    display: block;
+    height: 2px;
+    margin-bottom: 6px;
+    float: right;
+    width: 100%;
+    transition: all 0.4s;
+}
+.hamburger span:nth-child(1) {
+    
+}
+.hamburger span:nth-child(2) {
+    width: 75%;
+}
+.hamburger span:nth-child(3) {
+    width: 50%;
+}
+.hamburger:hover span {
+    margin-bottom: 15px;
 }
