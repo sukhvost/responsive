@@ -23,16 +23,41 @@ div, p, span, a, input, button {
     box-sizing: border-box;
 }
 
+p {
+    line-height: 1.7em;
+}
+
 .jpk-font {
     font-family: 'Jaapokkisubtract', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Jaapokkisubtract', sans-serif;
+    letter-spacing: 0.14em;
+    font-weight: normal;
+    line-height: 1.25em;
 }
 
 .container {
     margin: 0 7%;
     position: relative;
+}
+
+.btn{
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 17px 0;
+    width: 220px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #0001c5;
+    border-radius: 5px;
 }
 
 /* header */
@@ -45,6 +70,8 @@ h1, h2, h3, h4, h5, h6 {
 .header .container {
     height: 100vh;
 }
+
+/* logo */
 
 .logo {
     width: 50px;
@@ -67,6 +94,8 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
 }
 
+/* block brah */
+
 .brah {
     background: #fff;
     font-size: 18px;
@@ -79,6 +108,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 55%;
 }
+
+/* hamburger */
 
 /* .hamburger {
     width: 50px;
@@ -153,4 +184,94 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hamburger:hover span {
     margin-bottom: 15px;
+}
+
+/* bg offer */
+
+.offer {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -250px;
+}
+
+.offer__bg {
+    font-size: 300px;
+    color: #1d1cc4;
+    position: absolute;
+}
+
+.offer__title {
+    font-size: 50px;
+    position: relative;
+    width: 540px;
+    margin: 20% 25%;
+}
+
+.offer__title::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    right: 40%;
+}
+
+.offer__text {
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    width: 330px;
+    margin-top: 35px;
+    margin-left: 215px;
+}
+
+.offer__button {
+    margin: 40px 0 0 320px;
+}
+
+/* next */
+
+.next {
+    font-size: 300px;
+    text-shadow: 10px 10px 0 #0000a0;
+    width: 400px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    margin-top: -180px;
+    line-height: 0;
+}
+
+.next span {
+    margin-right: -70px;
+    line-height: 0.7em;
+}
+.next span:nth-child(2) {
+    font-size: 280px;
+    color: #1d1cc4;
+}
+
+/* scroll */
+
+.scroll {
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 3px solid #fff;
+    cursor: pointer;
+    width: 120px;
+    height: 150px;
+    padding: 20px 20px 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    transition: all 0.4s;
+}
+
+.scroll:hover {
+    background: #fff;
+    color: #0000a0;
 }
