@@ -47,7 +47,131 @@
 
 /* 961 - 1368px */
 @media screen and (max-width: 1368px){
-    
+    .btn{
+        font-size: 20px;
+        padding: 10px 0;
+        width: 200px;
+    }
+    .offer__button {
+        margin: 40px 0 0 85px;
+    }
+    .brah {
+        background: #fff;
+        font-size: 14px;
+        color: #0000a0;
+        text-align: center;
+        width: 37px;
+        height: 130px;
+        padding: 15px 15px;
+        position: absolute;
+        top: 0;
+        left: 55%;
+    }
+    .offer__bg {
+        font-size: 150px;
+        top: 20%;
+    }
+    .offer__title {
+        font-size: 18px;
+        margin: 27% 14% 10% 14%;
+    }
+    .offer__title::before{
+        width: 10px;
+        height: 2px;
+        top: -2px;
+        right: 62%;
+    }
+    .next {
+        font-size: 150px;
+        width: 150px;
+        margin-top: -135px;
+    }
+    .next span {
+        margin-right: -50px;
+    }
+    .offer__text {
+        font-size: 13px;
+        width: 270px;
+        margin-top: 0;
+        margin-left: 80px;
+    }
+    .next span:nth-child(2) {
+        font-size: 150px;
+
+    }
+    .card__item {
+        padding: 60px 0 0 25px;
+    }
+    .card__title {
+        font-size: 20px;
+        padding: 20px 0 110px 0;
+    }
+    .footer__flex {
+        font-size: 14px;
+    }
+    .scroll {
+        font-size: 20px;
+        border-right: 2px solid #fff;
+        width: 100px;
+        height: 100px;
+        padding: 20px 20px 0 10px;
+    }
+    .section-title {
+        margin-top: 70px;
+    }
+    .section-title__intro {
+        font-size: 18px;
+    }
+    .section-title__title {
+        font-size: 55px;
+        margin: -10px 0 70px 50px;
+    }
+    .section-title__title::after {
+        width: 20px;
+        height: 3px;
+        margin-bottom: -10px;
+    }
+    .card {
+        padding-bottom: 140px;
+    }
+    .card__item {
+        width: 20%;
+        padding: 30px 0 0 25px;
+    }
+    .icon {
+        font-size: 35px;
+    }
+    .card__title {
+        font-size: 16px;
+        padding: 20px 0 70px 0;
+    }
+    .card__more {
+        font-size: 20px;
+        font-weight: 400;
+        width: 21px;
+        height: 21px;
+    }
+    .card__index {
+        font-size: 18px;
+        left: -24%;
+    }
+    .footer {
+        padding: 110px 0;
+    }
+    .footer__flex {
+        font-size: 10px;
+    }
+    .footer__logo {
+        width: 45px;
+        height: 45px;
+    }
+    .footer__btn {
+        border: 2px solid #0001c5;
+        padding: 7px 0;
+    }
+    .footer__link {
+        font-size: 45px;
+    }
 }
 
 /* 769 - 960px */
