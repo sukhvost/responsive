@@ -363,10 +363,29 @@ h1, h2, h3, h4, h5, h6 {
     padding: 160px 0;
     font-size: 14px;
 }
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
 .footer__logo {
     background: #0001c5;
     color: #fff;
+    position: relative;
+    top: auto;
 }
 .footer__link {
     text-decoration: none;
 }
+.footer__btn {
+    border: 3px solid #0001c5;
+    color: #0001c5;
+    padding: 10px 7px;
+}
+
+    color: #0000a0;
+    text-align: center;
+    width: 42px;
+    height: 175px;
+    
