@@ -65,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom/cover;
     color: #fff;
-    height: 100vh;
     box-shadow: 0 40px 100px #6f6fa1;
 }
 .header .container {
@@ -361,7 +360,6 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
     background: #ededf8;
     padding: 160px 0;
-    font-size: 14px;
 }
 .footer__flex {
     display: flex;
@@ -383,9 +381,3 @@ h1, h2, h3, h4, h5, h6 {
     color: #0001c5;
     padding: 10px 7px;
 }
-
-    color: #0000a0;
-    text-align: center;
-    width: 42px;
-    height: 175px;
-    
