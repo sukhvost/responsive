@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom/cover;
     color: #fff;
     height: 100vh;
+    box-shadow: 0 40px 100px #6f6fa1;
 }
 .header .container {
     height: 100vh;
@@ -274,4 +275,98 @@ h1, h2, h3, h4, h5, h6 {
 .scroll:hover {
     background: #fff;
     color: #0000a0;
+}
+
+/* servises */
+
+.section-title {
+    margin-top: 150px;
+}
+.section-title__intro {
+    color: #a8a8e4;
+    font-size: 23px;
+}
+.section-title__title {
+    font-size: 85px;
+    margin: -10px 0 100px 50px;
+    letter-spacing: 0.07em;
+}
+.section-title__title::after {
+    content: "";
+    display: inline-block;
+    right: 0;
+    width: 30px;
+    height: 5px;
+    background: #0001c5;
+    margin-bottom: -15px;
+}
+
+/* card */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+.card__item {
+    text-decoration: none;
+    display: block;
+    width: 20%;
+    border: 4px solid #0001c5;
+    padding: 60px 0 0 55px;
+    position: relative;
+    transition: all 0.4s;
+}
+.card__item:hover {
+    background: #0001c5;
+    color: #fff;
+    box-shadow: 15px 15px 30px #0001c5;
+    border-radius: 4px;
+}
+.card__item:hover .card__more {
+    background: #fff;
+    color: #0001c5;
+}
+
+.icon {
+    font-size: 48px;
+}
+.card__title {
+    font-size: 26px;
+    padding: 20px 0 110px 0;
+}
+.card__more {
+    font-size: 26px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    width: 31px;
+    height: 31px;
+    background: #0001c5;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.card__index {
+    position: absolute;
+    font-size: 24px;
+    color: #a8a8e4;
+    top: 10%;
+    left: -18%;
+}
+
+/* footer */
+
+.footer {
+    background: #ededf8;
+    padding: 160px 0;
+    font-size: 14px;
+}
+.footer__logo {
+    background: #0001c5;
+    color: #fff;
+}
+.footer__link {
+    text-decoration: none;
 }
