@@ -215,30 +215,67 @@
         flex-wrap: wrap;
         font-size: 14px;
     }
-    .footer__logo {
-        margin-bottom: 15px;
+    .footer__flex > * {
+        margin-bottom: 20px;
     }
-    .footer__right {
-        margin-bottom: 15px;
-    }
-    .footer__btn {
-        margin-bottom: 15px;
-    }
-    .footer__tel {
-        margin-bottom: 15px;
-    }
-    .footer__mail {
-        margin-bottom: 15px;
-    }
-    .footer__work {
-        margin-bottom: 15px;
-    }
-
-
-
+}
 /* 481 - 768px */
 @media screen and (max-width: 768px){
-    
+    .logo {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        line-height: 2;
+    }
+    .logo:hover {
+        font-size: 20px;
+    }
+    .hamburger {
+        width: 35px;
+    }
+    .hamburger span {
+        height: 1px;
+        margin-bottom: 8px;
+    }
+    .next {
+        display: none;
+    }
+    .scroll {
+        display: none;
+    }
+    .section-title {
+        margin-top: 40px;
+    }
+    .section-title__intro {
+        font-size: 16px;
+    }
+    .section-title__title {
+        font-size: 50px;
+        margin: -10px 0 40px 50px;
+    }
+    .section-title__title::after {
+        width: 15px;
+        height: 3px;
+    }
+    .card {
+        padding-bottom: 40px;
+    }
+    .card__item {
+        width: 80%;
+        padding: 50px 0 0 50px;
+        margin: 10px auto;
+    }
+    .card__title {
+        font-size: 24px;
+        padding: 20px 0 50px 0;
+    }
+    .card__more {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;     
+        width: 31px;
+        height: 31px;
+    }
 }
 
 /* 320 - 480px */
